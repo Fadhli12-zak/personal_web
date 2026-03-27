@@ -44,55 +44,60 @@ export function Contact() {
         feel free to reach out.
       </motion.p>
 
-      <div className="flex flex-col md:flex-row gap-4 print:flex-col print:gap-2">
-        <motion.a
-          variants={fadeInUp}
-          href="mailto:fadhlimudzak@gmail.com"
-          className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
-        >
-          <Mail size={20} />
-          <span>fadhlimudzak@gmail.com</span>
-        </motion.a>
-        <motion.a
-          variants={fadeInUp}
-          href="https://www.linkedin.com/in/fadhli-muhammad-dzaki/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
-        >
-          <Linkedin size={20} />
-          <span>LinkedIn</span>
-        </motion.a>
-        <motion.a
-          variants={fadeInUp}
-          href="https://github.com/Fadhli12-zak"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
-        >
-          <Github size={20} />
-          <span>GitHub</span>
-        </motion.a>
-        <motion.a
-          variants={fadeInUp}
-          href="https://www.instagram.com/fdhlmdzq_/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
-        >
-          <Instagram size={20} />
-          <span>Instagram</span>
-        </motion.a>
-        <motion.a
-          variants={fadeInUp}
-          href="https://wa.me/qr/7O7VLFX4PRVZH1"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
-        >
-          <WhatsApp size={20} />
-          <span>WhatsApp</span>
-        </motion.a>
+      <div className="flex flex-col gap-4">
+        <div className="flex flex-col md:flex-row gap-4 print:flex-col print:gap-2">
+          <motion.a
+            variants={fadeInUp}
+            href="mailto:fadhlimudzak@gmail.com"
+            className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
+          >
+            <Mail size={20} />
+            <span>fadhlimudzak@gmail.com</span>
+          </motion.a>
+          <motion.a
+            variants={fadeInUp}
+            href="https://www.linkedin.com/in/fadhli-muhammad-dzaki/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
+          >
+            <Linkedin size={20} />
+            <span>LinkedIn</span>
+          </motion.a>
+          <motion.a
+            variants={fadeInUp}
+            href="https://github.com/Fadhli12-zak"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
+          >
+            <Github size={20} />
+            <span>GitHub</span>
+          </motion.a>
+          <motion.a
+            variants={fadeInUp}
+            href="https://www.instagram.com/fdhlmdzq_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
+          >
+            <Instagram size={20} />
+            <span>Instagram</span>
+          </motion.a>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-4 print:flex-col print:gap-2">
+          <motion.a
+            variants={fadeInUp}
+            href="https://wa.me/qr/7O7VLFX4PRVZH1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center md:justify-start gap-3 px-6 py-4 bg-card hover:bg-foreground hover:text-background text-foreground font-medium rounded-lg transition-colors border border-transparent hover:border-foreground dark:border-neutral-800"
+          >
+            <WhatsApp size={20} />
+            <span>WhatsApp</span>
+          </motion.a>
+        </div>
       </div>
 
       <motion.div variants={fadeInUp} className="mt-20 print:mt-10 pt-8 border-t border-neutral-200 dark:border-neutral-800 text-center text-sm text-neutral-500">
